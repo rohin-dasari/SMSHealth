@@ -56,11 +56,11 @@ def send():
         Body = "Hello " + name + ". " + text1
         full  = Body+text2
 
-        account_sid = "ACc5a5dd461ccc11dfd65ac6ed29aae14b"
-        auth_token = "6440c574fb3e0978189ba986e19174e9"
+        account_sid = "****************"
+        auth_token = "******************"
 
         client = Client(account_sid,auth_token)
-        client.messages.create(to="+17047791988",from_ = "+19093142587",body = full)
+        client.messages.create(to="+1**********",from_ = "+1**********",body = full)
         
         return render_template('age.html',dateofbirth = age)
 
