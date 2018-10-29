@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+
+    </head>
+    
+    <body>
+        <h1>Name: </h1>
+        <form method="POST" action="/send">
+            <div class="form-group">
+                <input type="text" name="name">
+
+            </div>
+        <h1>Date of Birth: </h1>
+            <div class="form-group">
+                <input type="text" name="dateofbirth">
+
+            </div>
+
+            <h2>Phone Number (xxx-xxx-xxxx): </h2>
+            <div class="form-group">
+                <input type="text" name="phonenum" alt="Input phone number">
+
+            </div>
+
+            <h2>Vaccinations: </h2>
+            <div class="form-group">
+                <input type="checkbox" name="vaccinations1" value="Flu"> Flu <br>
+            
+            
+                <input type="checkbox" name="vaccinations2" value="Tetanus"> Tetanus <br>
+            
+            
+                <input type="checkbox" name="vaccinations3" value="Vaccine_n"> Vaccine_n <br>
+            
+            
+            </div>
+            <input class="btn btn-primary" type="submit" value="submit">
+        
+        </form>
+
+    </body>
+
+
+
+
+</html>
