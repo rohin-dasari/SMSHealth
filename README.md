@@ -10,7 +10,7 @@ Make sure you have a twilio account and have your key and number set up in the p
 Once you have that set up, just pip install Flask and Twilio and run the python file from your terminal. 
 
 
-Copy the link that Flask provides and add a "/send" at the end of the link
+Copy the link that Flask provides and stick it in your browser. Add a "/send" at the end of the link and hit enter
 
 Fill out the form and recieve a text message
 
